@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Learn", "WPF_Learn\WPF_Learn.csproj", "{407C547B-6A72-4436-B3CF-F831C92111C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Learn_WPF", "WPF_Learn_WPF\WPF_Learn_WPF.csproj", "{FEE4ACA4-F392-4ABF-BA37-43BDBA046DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginMaterialDesign", "LoginMaterialDesign\LoginMaterialDesign.csproj", "{1D640410-AAC6-4EFC-891E-84A0E36FC226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn_1", "Learn_1\Learn_1.csproj", "{FC2233BB-3205-4F59-B47B-3A29D6591CE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{407C547B-6A72-4436-B3CF-F831C92111C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407C547B-6A72-4436-B3CF-F831C92111C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407C547B-6A72-4436-B3CF-F831C92111C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407C547B-6A72-4436-B3CF-F831C92111C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE4ACA4-F392-4ABF-BA37-43BDBA046DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE4ACA4-F392-4ABF-BA37-43BDBA046DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE4ACA4-F392-4ABF-BA37-43BDBA046DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE4ACA4-F392-4ABF-BA37-43BDBA046DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D640410-AAC6-4EFC-891E-84A0E36FC226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D640410-AAC6-4EFC-891E-84A0E36FC226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D640410-AAC6-4EFC-891E-84A0E36FC226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D640410-AAC6-4EFC-891E-84A0E36FC226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2233BB-3205-4F59-B47B-3A29D6591CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2233BB-3205-4F59-B47B-3A29D6591CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2233BB-3205-4F59-B47B-3A29D6591CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2233BB-3205-4F59-B47B-3A29D6591CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F59B154-1B70-4552-847E-679F043A8D09}
+	EndGlobalSection
+EndGlobal

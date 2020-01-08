@@ -1,0 +1,34 @@
+﻿<Window x:Class="WPF_Learn_WPF.UserLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Learn_WPF"
+        mc:Ignorable="d"
+        Title="UserLogin" Height="676" Width="621" WindowStyle="None" BorderThickness="0" Loaded="Window_Loaded" Background="Tomato" AllowsTransparency="True" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid Height="676">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF4913F4"/>
+                <GradientStop Color="#FFA90CF6" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="注册" HorizontalAlignment="Left" Margin="118,51,0,0" VerticalAlignment="Top" Height="56" Width="192" Background="#192E8B57" Foreground="White" FontSize="20" BorderThickness="0" BorderBrush="{x:Null}"/>
+        <Button Content="登录" HorizontalAlignment="Left" Margin="336,51,0,0" VerticalAlignment="Top" Height="56" Width="192" Background="#192E8B57" Foreground="White" FontSize="20" BorderThickness="0" BorderBrush="{x:Null}"/>
+        <Rectangle HorizontalAlignment="Left" Height="429" Margin="84,142,0,0" VerticalAlignment="Top" Width="496" StrokeDashArray="1,1">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE7DEDE" Offset="0"/>
+                    <GradientStop Color="#FFE0D8D8" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Label Content="用户名:" HorizontalAlignment="Left" Margin="118,192,0,0" VerticalAlignment="Top" Height="37" Width="124" FontSize="25" Foreground="White"/>
+        <Label Content="密码:" HorizontalAlignment="Left" Margin="118,301,0,0" VerticalAlignment="Top" Height="37" Width="124" FontSize="25" Foreground="White"/>
+        <TextBox HorizontalAlignment="Left" Margin="122,234,0,0" Text="Administrator" TextWrapping="Wrap" VerticalAlignment="Top" Width="431" Height="42" Background="#FF6211F5" Foreground="White"  FontSize="23"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="122,356,0,0" VerticalAlignment="Top" Width="431" Height="42" Background="#FF6211F5" Foreground="White"  FontSize="23"/>
+        <Button Content="登录" HorizontalAlignment="Left" Margin="361,432,0,0" VerticalAlignment="Top" Height="56" Width="192" Background="#192E8B57" Foreground="White" FontSize="20" BorderThickness="0" BorderBrush="{x:Null}"/>
+        <Button Content="取消" HorizontalAlignment="Left" Margin="122,432,0,0" VerticalAlignment="Top" Height="56" Width="192" Background="#192E8B57" Foreground="White" FontSize="20" BorderThickness="0" BorderBrush="{x:Null}"/>
+
+    </Grid>
+</Window>
